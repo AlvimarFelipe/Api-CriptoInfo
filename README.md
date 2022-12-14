@@ -10,3 +10,7 @@
 4. Intalar com `npm install`
 
 5. Para rodar o projeto `npm run start-dev`
+
+6.  Entre na sua url definida como padrão 
+
+7.  E no seu terminal de comando sera retornado : Conexão estabelecida com sucesso!
