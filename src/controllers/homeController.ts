@@ -18,7 +18,7 @@ export const ADDNoticias = async (req: Request, res: Response)=>{
     const noticia = await Noticia.create({
         titulo:req.body.titulo,
         noticia:req.body.noticia,
-        urlimg: req.body.imagem,
+        urlimg: req.body.urlimg,
         tipo: req.body.tipo
     });
     res.send(noticia)
