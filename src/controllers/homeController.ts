@@ -25,7 +25,7 @@ export const ADDNoticias = async (req: Request, res: Response)=>{
 };
 
 export const UPDATENoticias = async (req: Request, res: Response)=>{
-    await Noticia.update({titulo:req.body.titulo,noticia:req.body.noticia,url_img:req.body.url_img},{
+    await Noticia.update({titulo:req.body.titulo,noticia:req.body.noticia,urlimg:req.body.urlimg},{
         where: {
             id:req.body.id
         }
