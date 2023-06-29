@@ -1,4 +1,4 @@
-# Api Mobile CripitoInfo
+# Api CripitoInfo
 
 
 1. Ter o MySql e Node.js
